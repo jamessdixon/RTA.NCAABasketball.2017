@@ -1,0 +1,49 @@
+Clay
+
+Tim
+Blake
+Walt
+
+
+draftexpress.com
+ID outlier
+impute - RF and 10-nearest neighbor
+ordering of eligible players -> Packett-Luce
+selected inference
+www.sports-reference.com/cbb
+collegebasketball.rivals.com
+www.basketball-reference.com
+
+Fused Lasso -> changepoints
+Double fusing
+
+Null hypothsis - predict outcome based on rank
+Selection committee looks at what is deserved, not on probability of future
+	(#1 seed best player hurt on Wednesday)
+	so you can get upsets
+Vegas - massive delphi panel based on odds (book is priced for action)
+Historical - not that many data points.  Confounding varaibles
+Hunch Model for champion
+	Hot team: UCONN with Walker and Napier, Nova last year
+	Growing team: Kentucky with Freshman
+	NBA team: UNLV
+	All Games: Historical Precident + Conference + Loyality	
+	Is picking the champion important: weighted average of points
+
+Biggest problem is data aquisition - most is designed for visuization
+Model selection is less important than feature selection
+
+My Model:
+Simulation of
+Vegas Odds
+Last 10 games win/loss: weighted moving avaerage
+Turnovers/easy buckets: matchups, officals, guard experience (esp point)
+Coaching: Proxy for cofounding varaibles
+
+Tournament Ranking Performance
+NCAA - M: 10 years
+Tennis: 5 Years
+Certain seeds tend to upset more than others?
+Markov Model - abs(Seed difference)
+Distribution of each game
+Neural Network
