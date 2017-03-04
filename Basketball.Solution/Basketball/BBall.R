@@ -1,6 +1,6 @@
 
-results <- read.csv(file = "C:/Users/DIXON15/Documents/RTA/Data/TourneyCompactResults.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
-seeds <- read.csv(file = "C:/Users/DIXON15/Documents/RTA/Data/TourneySeeds.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
+results <- read.csv(file = "C:/Git/RTA.NCAABasketball.2017/Data/TourneyCompactResults.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
+seeds <- read.csv(file = "C:/Git/RTA.NCAABasketball.2017/Data/TourneySeeds.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
 
 head(results)
 head(seeds)
