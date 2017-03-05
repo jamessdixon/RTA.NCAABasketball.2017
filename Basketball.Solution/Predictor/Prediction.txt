@@ -1,33 +1,32 @@
-﻿E1:Champ
-MW1:RunnerUp
-W3:FinalFour
-E2:FinalFour
-MW5:Elite 8
-W1:Elite 8
-MW2:Elite 8
-S5:Elite 8
-W6:SweeetSixteen
-E7:SweeetSixteen
-S8:SweeetSixteen
+﻿S1:Champ
+W1:RunnerUp
+MW1:FinalFour
+E5:FinalFour
+W2:Elite 8
+MW6:Elite 8
+E1:Elite 8
+S3:Elite 8
 MW11:SweeetSixteen
-W5:SweeetSixteen
-S2:SweeetSixteen
 W8:SweeetSixteen
-MW9:SweeetSixteen
-W4:FirstWin
-E12:FirstWin
+E2:SweeetSixteen
+E3:SweeetSixteen
+W3:SweeetSixteen
+MW4:SweeetSixteen
+S5:SweeetSixteen
+S10:SweeetSixteen
+S8:FirstWin
 MW7:FirstWin
-E6:FirstWin
-S1:FirstWin
-W2:FirstWin
-S9:FirstWin
-S6:FirstWin
-MW4:FirstWin
-E5:FirstWin
-W12:FirstWin
-W10:FirstWin
+W7:FirstWin
 MW3:FirstWin
-MW12:FirstWin
-S4:FirstWin
-E3:FirstWin
-
+E6:FirstWin
+E10:FirstWin
+W4:FirstWin
+W9:FirstWin
+S6:FirstWin
+S12:FirstWin
+S2:FirstWin
+MW5:FirstWin
+W11:FirstWin
+MW9:FirstWin
+E7:FirstWin
+E4:FirstWin
