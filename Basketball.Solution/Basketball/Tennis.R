@@ -205,6 +205,14 @@ getNumberofWins <- function(playerName) {
     return(nrow(wins))
 }
 
-df.seeds$numberofWins <- sapply(df.seeds$Player, getNumberofWins)
+df.seeds$Wins <- sapply(df.seeds$Player, getNumberofWins)
 
-df.seeds
+df.tennis <- df.seeds
+df.tennis$Player <- NULL
+hist(df.tennis$Wins)
+
+head(df.tennis)
+
+library(plyr)
+ddply(df.tennis, ~ Seed, summarise, mean = mean(Wins), sd = sd(Wins))
+
