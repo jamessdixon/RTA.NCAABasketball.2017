@@ -1,0 +1,33 @@
+﻿E1:Champ
+MW1:RunnerUp
+W3:FinalFour
+E2:FinalFour
+MW5:Elite 8
+W1:Elite 8
+MW2:Elite 8
+S5:Elite 8
+W6:SweeetSixteen
+E7:SweeetSixteen
+S8:SweeetSixteen
+MW11:SweeetSixteen
+W5:SweeetSixteen
+S2:SweeetSixteen
+W8:SweeetSixteen
+MW9:SweeetSixteen
+W4:FirstWin
+E12:FirstWin
+MW7:FirstWin
+E6:FirstWin
+S1:FirstWin
+W2:FirstWin
+S9:FirstWin
+S6:FirstWin
+MW4:FirstWin
+E5:FirstWin
+W12:FirstWin
+W10:FirstWin
+MW3:FirstWin
+MW12:FirstWin
+S4:FirstWin
+E3:FirstWin
+
