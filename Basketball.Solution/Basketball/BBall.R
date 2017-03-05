@@ -1,9 +1,12 @@
 
-results <- read.csv(file = "C:/Git/RTA.NCAABasketball.2017/Data/TourneyCompactResults.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
-seeds <- read.csv(file = "C:/Git/RTA.NCAABasketball.2017/Data/TourneySeeds.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
+
+results <- read.csv(file = "../../Data/TourneyCompactResults.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
+seeds <- read.csv(file = "../../Data/TourneySeeds.csv", header = TRUE, row.names = NULL, encoding = "UTF-8", sep = ",", dec = ".", quote = "\"", comment.char = "")
 
 head(results)
 head(seeds)
+
+library(plyr)
 
 result.count <- count(results, c("Season", "Wteam"))
 head(result.count)
@@ -41,7 +44,9 @@ summary(df.2$Wins)
 df.2[df.2$Wins == 6,]
 hist(df.2$Wins)
 
+df.basketball <- df.2
+df.basketball$Season <- NULL
+df.basketball$Team <- NULL
 
-
-
+ddply(df.basketball, ~ Seed, summarise, mean = mean(Wins), sd = sd(Wins))
 
